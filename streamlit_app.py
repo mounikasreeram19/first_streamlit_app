@@ -7,7 +7,6 @@ streamlit.text(' 🐔 Hard-Boiled Free-Rang Egg')
 streamlit.text('🥑🍞 Avacado Toast')
 
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
-streamlit.text('🍌🥭 Banana Mango smoothie')
-streamlit.text(' 🥝 kiwi Smoothie')
-streamlit.text(' 🥭  Mango smoothie')
-streamlit.text('🥑 Avacado smoothie')
+import Pandas
+my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
+streamlit.dataframe(my_fruit_list)
