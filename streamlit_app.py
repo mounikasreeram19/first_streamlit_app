@@ -35,3 +35,4 @@ my_cur.execute("select * from pc_rivery_db.public.fruit_load_list")
 my_data_row = my_cur.fetchone()
 streamlit.text("The fruit load list contaions:")
 streamlit.text(my_data_row)
+
